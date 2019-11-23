@@ -5,20 +5,22 @@
         var code = event.keyCode;
         var key;
 
+        // console.log(code)
+
         switch(code) {
         case 32:
-            key = 'SPACE'; break;
-        case 37:
+            key = 'SPACE';break;
+        case 65:
             key = 'LEFT'; break;
-        case 38:
+        case 87:
             key = 'UP'; break;
-        case 39:
+        case 68:
             key = 'RIGHT'; break;
-        case 40:
+        case 83:
             key = 'DOWN'; break;
-        case 88:
+        case 40:
             key = 'JUMP'; break;
-        case 90:
+        case 37:
             key = 'RUN'; break;
         default:
             key = String.fromCharCode(code);
